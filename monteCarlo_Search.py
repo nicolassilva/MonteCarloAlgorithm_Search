@@ -1,8 +1,13 @@
 import numpy as np
 from random import *
+import sys
 
 #Define the sequence
-seq = "hhhpphhh"
+fichier = open(sys.argv[1],"r")
+seq = fichier.read()
+fichier.close()
+print(seq)
+
 
 #Define the matrix as a square of 2 times the length of the sequences
 mat = np.char.array([['.']*len(seq)*2]*len(seq)*2)
