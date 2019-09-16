@@ -1,0 +1,5 @@
+name: monteCarloSearch
+channels:
+  - defaults
+prefix: /home/nicolas/miniconda3/envs/monteCarloSearch
+
