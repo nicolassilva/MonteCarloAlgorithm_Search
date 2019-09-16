@@ -10,7 +10,7 @@ class File():
 	def readFile(self):
 		"""Open the file containing the sequence to study"""
 		fichier = open(self.filename,"r")
-		return fichier.read()
+		return fichier.readline().rstrip('\n')
 
 class Array():
 	def __init__(self, length):
@@ -38,14 +38,23 @@ if __name__ == '__main__':
 	    j=j+1
 	#print(mat)
 
-	for nb in range(1):
+	dic = {}
+	j=int(len(seq)/2)
+	print(j)
+	for i in range(len(seq)):
+		dic[seq[i]] = (len(seq),j)
+		print(dic)
+		j=j+1
+	print(dic)
+
+	"""for nb in range(1):
 	    for i in range(len(mat)):
 	        for j in range(len(mat)):
 	            if (mat[i][j] != '.') :
 	                a = randint(1,4)
 	                if a==1:
 	                    if mat[i-1][j+1] != '.':
-	                        break							
+							break
 	                    else:
 	                        mat[i-1][j+1] = mat[i][j]
 	                        mat[i][j] = '.'
@@ -67,4 +76,4 @@ if __name__ == '__main__':
         	            else:
                         	mat[i+1][j-1] = mat[i][j]
 	                        mat[i][j] = '.'
-	print(mat)
+	print(mat)"""
