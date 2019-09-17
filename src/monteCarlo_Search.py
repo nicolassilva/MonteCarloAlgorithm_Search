@@ -37,6 +37,11 @@ class Array():
 				e = e + 1
 		return e
 
+	def writeFile(self,matrix,filename):
+		"""Write data in file"""
+		np.savetxt(filename, matrix, fmt='%-10.1c', delimiter='')
+		return
+
 
 if __name__ == '__main__':
 	
@@ -147,8 +152,9 @@ if __name__ == '__main__':
 			dic = newDic
 			mat = newMat
 
-
-	print(mat)
+	#print(len(mat))
+	matrice.writeFile(mat,'../results/results.txt')
+	print(mat[:][19:25])
 
 
 
