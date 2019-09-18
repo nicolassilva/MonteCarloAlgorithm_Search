@@ -41,4 +41,4 @@ La conformation finale obtenue après repliement est enregistrer dans un fichier
 #### Modules python importées
 *****************************
 
-Numpy, sys
+Numpy, Sys, Random
