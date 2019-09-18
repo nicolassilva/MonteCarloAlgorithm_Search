@@ -1,8 +1,7 @@
 ## Sujet: Repliement d'un modèle simplifié de protéine par un algorithme de Monte-Carlo et échange de répliques
 
-Nicolas Silva (silva.nicolas.j@gmail.com)
-Université Paris Diderot - Paris 7
-Septembre 2019 - Projet court
+Nicolas Silva (silva.nicolas.j@gmail.com)<br/>
+Université Paris Diderot - Septembre 2019 - Projet court
 
 __Objectif__
 
