@@ -1,4 +1,4 @@
-##Sujet: Repliement d'un modèle simplifié de protéine par un algorithme de Monte-Carlo et échange de répliques*
+##Sujet: Repliement d'un modèle simplifié de protéine par un algorithme de Monte-Carlo et échange de répliques##
 
 Nicolas Silva
 silva.nicolas.j@gmail.com
