@@ -1,7 +1,6 @@
-##Sujet: Repliement d'un modèle simplifié de protéine par un algorithme de Monte-Carlo et échange de répliques##
+## Sujet: Repliement d'un modèle simplifié de protéine par un algorithme de Monte-Carlo et échange de répliques
 
-Nicolas Silva
-silva.nicolas.j@gmail.com
+Nicolas Silva (silva.nicolas.j@gmail.com)
 Université Paris Diderot - Paris 7
 Septembre 2019 - Projet court
 
@@ -19,11 +18,11 @@ Exécution sous l'environnement python3
 *********************************************
 
 Le répertoire contient :
-	- un dossier *data* contenant le fichier avec une séquence hydro/polaire d'acides aminés.
-	- un dossier *doc* contenant le rapport du projet.
-	- un dossier *results* contenant les résultats de repliements protéiques après l'algorithme de Monte Carlo.
-	- un dossier *src* contenant le script utilisé
-	- un fichier *.yml* permettant de recréer l'environnement conda utilisé
+	* un dossier *data* contenant le fichier avec une séquence hydro/polaire d'acides aminés.
+	* un dossier *doc* contenant le rapport du projet.
+	* un dossier *results* contenant les résultats de repliements protéiques après l'algorithme de Monte Carlo.
+	* un dossier *src* contenant le script utilisé
+	* un fichier *.yml* permettant de recréer l'environnement conda utilisé
 
 #### Programme
 **************
