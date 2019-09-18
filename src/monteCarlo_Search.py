@@ -44,8 +44,11 @@ class Array():
 
 
 if __name__ == '__main__':
-	
-	nstep = 100
+
+	if (int(sys.argv[2]) < 1):
+		print('Le second argument doit être un entier positif')
+		sys.exit()
+	nstep = int(sys.argv[2])
 	
 	#Import the sequence
 	sequence = File(sys.argv[1])
@@ -74,6 +77,7 @@ if __name__ == '__main__':
 
 	#Initial Energy calculation
 	Einit = matrice.energy(mat,seq,dic)
+	print("L'énergie initiale de la conformation protéique est de " + str(Einit))
 	
 	#Monte Carlo random algorithm
 	for k in range(nstep):
@@ -148,13 +152,15 @@ if __name__ == '__main__':
 
 		#Determination of the relevance of the moove through energy calculation
 		Enew = matrice.energy(newMat,seq,newDic)
-		if Enew < Einit:
+		if Enew <= Einit:
 			dic = newDic
 			mat = newMat
+			Einit = Enew
 
 	#print(len(mat))
 	matrice.writeFile(mat,'../results/results.txt')
-	print(mat[:][19:25])
+	print(mat)
+	print("L'énergie finale de la conformation protéique est de " + str(Einit))
 
 
 
