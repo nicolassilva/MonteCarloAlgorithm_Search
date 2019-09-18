@@ -26,7 +26,7 @@ Le répertoire contient :<br/>
 #### Programme
 **************
 
-Il n'y a qu'un seul programme à exécuter: le programme monteCarlo_Search.py<br/>
+Il n'y a qu'un seul programme à exécuter: le programme *monteCarlo_Search.py*<br/>
 Ce programme prend 2 paramètres:<br/>
 	- le premier est le fichier contenant la séquence d'intérêt.<br/>
 	- le second est le nombre de fois que l'algorithme de Monte Carlo doit être effectué.<br/>
